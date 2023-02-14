@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+}
+
+.section-tagline,
+.card-category {
+  color: var(--color-primary);
+}
+
+body {
+  color: var(--text-color);
+}
+
+a {
+  color: var(--text-color);
+}
+
+/*The first section defines custom properties using the :root selector, which targets the document's root element. 
+Each property is prefixed with -- to indicate that it's a custom property. These properties are then assigned specific color values.
+
+Next, the section-tagline and card-category selectors are updated to use the --color-primary custom property as their color.
+
+Finally, the body and a selectors are updated to use the --text-color custom property as their color.*/
