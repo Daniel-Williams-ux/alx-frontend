@@ -1,17 +1,11 @@
-/*To target the root element and create the custom font-family properties, use:*/
-
 :root {
 --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/*To set the body's font-family to font-family-base, use:*/
-
 body {
 font-family: var(--font-family-base);
 }
-
-/*To create a new declaration targeting all 6 levels of section headings, use:*/
 
 h1, h2, h3, h4, h5, h6 {
 font-family: var(--font-family-title);
