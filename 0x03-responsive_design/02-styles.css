@@ -1,0 +1,26 @@
+/* Layout
+      ============================= */
+  
+  .container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Section HERO
+      ============================= */
+  
+  .hero-homepage {
+    background-image: url(images/banner-home.jpg);
+    background-position: 65% 8rem;
+    background-repeat: no-repeat;
+    background-size: 90rem auto;
+  }
+  
+  .section-hero .section-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 35vh;
+  }
