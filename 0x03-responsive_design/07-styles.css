@@ -1,0 +1,15 @@
+/* Base section */
+...
+
+/* Media Queries */
+@media (max-width: 480px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  html {
+    font-size: 60;
+  }
+}
