@@ -1,0 +1,18 @@
+:root {
+  --nav-item-margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  /* Navbar section */
+  .navbar-menu {
+    flex: 1;
+  }
+
+  /* Target the nav class in header class */
+  header .nav {
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+}
