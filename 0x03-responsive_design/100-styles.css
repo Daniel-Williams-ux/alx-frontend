@@ -1,0 +1,26 @@
+/* Post section */
+
+.post {
+  margin: 0 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .post {
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .post-content {
+    padding-left: 0;
+  }
+}
+
+/* Comment section */
+
+@media screen and (max-width: 767px) {
+  .post-comments {
+    width: calc(100% - 4rem);
+    margin: 2rem;
+    padding: 0;
+  }
+}
