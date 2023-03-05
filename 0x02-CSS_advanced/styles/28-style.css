@@ -1,0 +1,27 @@
+:root {
+  /* Custom properties */
+  --header-padding: 4rem 0 0;
+  --header-logo-position: relative;
+  --header-logo-link-display: inline-block;
+  --header-logo-link-position: absolute;
+  --header-logo-link-top: -1rem;
+  --header-logo-link-left: 0;
+}
+
+/* Header */
+.header {
+  padding: var(--header-padding);
+}
+
+/* Header Logo */
+.header-logo {
+  position: var(--header-logo-position);
+}
+
+/* Header Logo Link */
+.header-logo a {
+  display: var(--header-logo-link-display);
+  position: var(--header-logo-link-position);
+  top: var(--header-logo-link-top);
+  left: var(--header-logo-link-left);
+}
