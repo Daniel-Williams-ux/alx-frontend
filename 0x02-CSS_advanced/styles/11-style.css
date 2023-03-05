@@ -1,0 +1,9 @@
+:root {
+  --section-tagline-transform: uppercase;
+}
+
+.section-tagline {
+  font-family: font-family-title;
+  text-transform: var(--section-tagline-transform);
+  font-weight: font-weight-bold;
+}
