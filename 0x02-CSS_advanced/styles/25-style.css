@@ -1,0 +1,34 @@
+:root {
+  --button-display: inline-block;
+  --button-padding: 1.5rem 3rem;
+  --button-border: 0.2rem solid var(--color-primary);
+  --button-color: color-black;
+  --button-text-decoration: none;
+  --button-font-size: font-size-large;
+  --button-hover-color: color-white;
+  --button-hover-text-decoration: none;
+  --button-hover-background: color-primary;
+}
+
+a:active {
+  /* your existing styles for active anchor links */
+}
+
+button {
+  display: var(--button-display);
+  padding: var(--button-padding);
+  border: var(--button-border);
+  font-size: var(--button-font-size);
+  color: var(--button-color);
+  text-decoration: var(--button-text-decoration);
+}
+
+button:hover {
+  color: var(--button-hover-color);
+  text-decoration: var(--button-hover-text-decoration);
+  background-color: var(--button-hover-background);
+}
+
+[data-section-theme="dark"] {
+  --button-color: color-white;
+}
