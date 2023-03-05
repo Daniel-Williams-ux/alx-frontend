@@ -1,0 +1,37 @@
+/* Universal box sizing rule */
+* {
+  box-sizing: border-box;
+}
+
+/* Custom properties */
+:root {
+  --section-padding: 5rem 0;
+  --section-header-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem;
+  --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
+  --footer-padding: 5rem 0 1rem;
+}
+
+/* Section styles */
+.section {
+  padding: var(--section-padding);
+}
+
+.section-header {
+  padding: var(--section-header-padding);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+/* Footer styles */
+.footer {
+  padding: var(--footer-padding);
+}
