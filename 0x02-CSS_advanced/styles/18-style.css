@@ -1,0 +1,99 @@
+/* Universal box sizing rule */
+* {
+  box-sizing: border-box;
+}
+
+/* Normalize CSS */
+/* Paste the contents of normalize.css here */
+
+/* Custom properties */
+:root {
+  /* Colors */
+  --color-primary: #0066cc;
+  --color-secondary: #e9e9e9;
+  --color-light-grey: #f7f7f7;
+  --color-black: #333333;
+
+  /* Fonts */
+  --font-family-title: 'Open Sans', sans-serif;
+
+  /* Section */
+  --section-padding: 5rem 0;
+  --section-header-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem;
+  --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
+
+  /* Footer */
+  --footer-padding: 5rem 0 1rem;
+
+  /* Navigation */
+  --nav-item-font-family: var(--font-family-title);
+  --nav-item-font-weight: bold;
+  --nav-item-font-size: 1.2rem;
+  --nav-item-letter-spacing: 4%;
+  --nav-item-display: inline-block;
+  --nav-item-margin: calc(3 * var(--root-element)) 0 0 0;
+  --nav-item-link-hover: var(--color-primary);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-secondary);
+  height: 6rem;
+  padding: 0 2rem;
+}
+
+.navbar-menu {
+  float: right;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
+}
+
+.nav-link {
+  display: block;
+  padding: var(--root-element) var(--root-element) calc(var(--root-element) / 2) var(--root-element);
+}
+
+.nav-link:hover {
+  color: var(--nav-item-link-hover);
+}
+
+/* Sections */
+.section {
+  padding: var(--section-padding);
+}
+
+.section-header {
+  padding: var(--section-header-padding);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+/* Footer */
+.footer {
+  padding: var(--footer-padding);
+}
