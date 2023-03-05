@@ -1,0 +1,12 @@
+:root {
+  --section-title-margin: 0;
+  --section-title-color: color-black;
+}
+
+.section-title {
+  font-family: font-family-title;
+  font-size: font-size-xx-large;
+  font-weight: font-weight-bold;
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
+}
