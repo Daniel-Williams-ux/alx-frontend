@@ -1,0 +1,17 @@
+a[href] {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  color: var(--color-primary);
+}
+
+a[href]:visited {
+  font-style: italic;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[href]:active {
+  background-color: var(--color-light-grey);
+}
